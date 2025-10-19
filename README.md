@@ -405,9 +405,10 @@ REACT_APP_API_BASE_URL=https://your-backend-url.com/api
 - Candidate for PM Accelerator program
 
 ### Contact
-- **LinkedIn**: [Connect with Ananya](https://linkedin.com/in/ananyashailesh)
-- **GitHub**: [View Portfolio](https://github.com/ananyashailesh)
-- **Email**: ananya@example.com
+- **LinkedIn**: [Connect with Ananya](https://www.linkedin.com/in/ananya-shailesh-1376a5293)
+- **Portfolio**: [View Portfolio](https://ananyashailesh.github.io/resume/)
+- **GitHub**: [GitHub Profile](https://github.com/ananyashailesh)
+- **Email**: ananyashailesh321@gmail.com
 
 ## 📄 License
 
