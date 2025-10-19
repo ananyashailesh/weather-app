@@ -1,0 +1,44 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Full-stack weather application for PM Accelerator Technical Assessment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run backend:dev\" \"npm run frontend:dev\"",
+    "start": "npm run backend:start",
+    "backend:dev": "cd backend && npm run dev",
+    "backend:start": "cd backend && npm start",
+    "backend:install": "cd backend && npm install",
+    "backend:test": "cd backend && npm test",
+    "frontend:dev": "cd frontend && npm start",
+    "frontend:build": "cd frontend && npm run build",
+    "frontend:install": "cd frontend && npm install",
+    "frontend:test": "cd frontend && npm test",
+    "install:all": "npm run backend:install && npm run frontend:install",
+    "test": "npm run backend:test && npm run frontend:test",
+    "build": "npm run frontend:build",
+    "docker:build": "docker build -t weather-app .",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "deploy": "npm run build && npm run docker:build"
+  },
+  "keywords": [
+    "weather",
+    "react",
+    "nodejs",
+    "mongodb",
+    "express",
+    "typescript",
+    "material-ui",
+    "pm-accelerator"
+  ],
+  "author": "Ananya Shailesh",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
