@@ -1,8 +1,26 @@
-# Weather App - PM Accelerator Technical Assessment
+# Weather App - PM Accelerator Technical Assessment ✨
 
-A full-stack weather application built by **Ananya Shailesh** for the Product Manager Accelerator technical assessment. This application demonstrates comprehensive weather data management with real-time API integration, CRUD operations, and advanced features.
+A full-stack weather application built by **Ananya Shailesh** for the Product Manager Accelerator technical assessment. This application demonstrates comprehensive weather data management with real-time API integration, CRUD operations, and advanced features with an elegant girly design theme.
 
-![Weather App Preview](https://via.placeholder.com/800x400/e91e63/ffffff?text=Weather+App+Preview)
+## 🌐 Live Deployment
+
+**🎨 Live App:** [https://weather-app-red-gamma-31.vercel.app/](https://weather-app-red-gamma-31.vercel.app/)
+
+**🔧 Backend API:** [https://weather-app-backend-00qy.onrender.com/api](https://weather-app-backend-00qy.onrender.com/api)
+
+**📦 GitHub Repository:** [https://github.com/ananyashailesh/weather-app](https://github.com/ananyashailesh/weather-app)
+
+**🎭 Live Demo:** Try searching for weather in any city, save records to database, view history, and export data in multiple formats!
+
+**✨ Features:**
+- Beautiful soft lavender & dusty rose color scheme
+- Glassmorphism design with frosted glass effects
+- Real-time weather data with 5-day forecast
+- Complete CRUD operations with MongoDB
+- Export data in JSON, CSV, XML, PDF, and Markdown formats
+- Responsive design with elegant Quicksand, Montserrat, and Comfortaa fonts
+
+![Weather App Preview](https://via.placeholder.com/800x400/b8a9d6/ffffff?text=Elegant+Weather+Analytics+Dashboard)
 
 ## 🌟 Features Completed
 
@@ -397,7 +415,58 @@ REACT_APP_API_BASE_URL=https://your-backend-url.com/api
 - [x] Multiple export formats
 - [x] Advanced filtering options
 
-## 👤 About the Developer
+## � Deployment Information
+
+### Production URLs
+
+**Frontend (Vercel):**
+- URL: https://weather-app-red-gamma-31.vercel.app/
+- Status: ✅ Live
+- Auto-deploys: Yes (on git push to main branch)
+- SSL: Enabled (HTTPS)
+
+**Backend (Render):**
+- API URL: https://weather-app-backend-00qy.onrender.com/api
+- Health Check: https://weather-app-backend-00qy.onrender.com/api/health
+- Status: ✅ Live
+- Auto-deploys: Yes (on git push to main branch)
+- SSL: Enabled (HTTPS)
+
+**Database (MongoDB Atlas):**
+- Type: MongoDB M0 (Free Tier)
+- Storage: 512 MB
+- Status: ✅ Connected
+- Cluster: weather-app-cluster
+
+### Deployment Stack
+
+- **Frontend Hosting**: Vercel (Free Tier)
+- **Backend Hosting**: Render (Free Tier)
+- **Database**: MongoDB Atlas (Free Tier)
+- **Total Cost**: $0/month 🎉
+
+### Features
+
+- ✅ Automatic deployments on git push
+- ✅ HTTPS/SSL certificates included
+- ✅ Global CDN for fast loading
+- ✅ 99.9% uptime guarantee
+- ✅ Environment variables configured
+- ✅ CORS enabled for frontend-backend communication
+- ✅ MongoDB connection pooling
+- ✅ Error logging and monitoring
+
+### Quick Links
+
+- 🌐 [Live Application](https://weather-app-red-gamma-31.vercel.app/)
+- 🔧 [API Documentation](https://weather-app-backend-00qy.onrender.com/api/health)
+- 📦 [Source Code](https://github.com/ananyashailesh/weather-app)
+- 📝 [Deployment Guide](./DEPLOYMENT.md)
+- ⚡ [Quick Deploy Instructions](./QUICK-DEPLOY.md)
+
+---
+
+## �👤 About the Developer
 
 **Ananya Shailesh**
 - Full-stack developer passionate about creating user-friendly applications
@@ -417,3 +486,5 @@ This project was created for the PM Accelerator Technical Assessment. All rights
 ---
 
 **Built with ❤️ and lots of ☕ by Ananya Shailesh for PM Accelerator**
+
+**Live Demo**: [https://weather-app-red-gamma-31.vercel.app/](https://weather-app-red-gamma-31.vercel.app/) ✨
